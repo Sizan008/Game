@@ -15,7 +15,6 @@ void assignRoles(vector<string>& players, vector<string>& roles, map<string, str
     }
 }
 
-// Function to reveal Babu
 void revealBabu(const map<string, string>& playerRoles) {
     for (const auto& pair : playerRoles) {
         if (pair.second == "Babu") {
